@@ -113,6 +113,23 @@ section:active .clouds {
     transform: translateY(-100%);
   }
 }
+.parag {
+  position: absolute;
+  left: -90px;
+  bottom: 300px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.3);
+}
+.parag2 {
+  position: absolute;
+  left: 210px;
+  bottom: 300px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.3);
+}
+
 
 /* DESKTOP */
 @media (min-width: 992px) {
@@ -129,5 +146,13 @@ section:active .clouds {
   }
   .clouds img {
     width: 880px;
+  }
+  .parag {
+    font-size: 40px;
+    left: -220px;
+  }
+  .parag2 {
+    left: 440px;
+    font-size: 40px;
   }
 }
